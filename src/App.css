@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #000; /* fallback */
+  background-color: #000;
 }
 
 .chat-container {
@@ -19,10 +19,10 @@ body {
   width: 100%;
   max-width: 500px;
   height: 600px;
-  background: rgba(255, 255, 255, 0.08); /* lighter semi-transparency */
-  backdrop-filter: blur(16px); /* <-- blur effect */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.15); /* frosted border */
+  border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
   display: flex;
